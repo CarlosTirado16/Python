@@ -74,3 +74,5 @@ print(language.lower()) #Minusculas
 print(language.lower().isupper()) #¿Son mayusculas? Falso
 print(language.startswith("Py")) #Empieza con Py, Falso, la primera es minuscula
 print("Py" == "py")  # No es lo mismo
+text = "12345"
+print(text.isnumeric())
