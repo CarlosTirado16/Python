@@ -37,3 +37,39 @@ print(my_other_person.full_name)
 
 my_other_person.full_name = 666
 print(my_other_person.full_name)
+
+class BankAccount:
+    def __init__(self, owner, balance=0):
+        self.owner = owner
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+        else:
+            print("Saldo insuficiente")
+
+
+cuenta1 = BankAccount("Carlos", 5000)
+print(cuenta1.balance)
+cuenta1.deposit(3000)
+print(cuenta1.balance)
+
+class Store:
+    def __init__(self):
+        self.inventory = []
+
+    def add_product(self, product):
+        self.inventory.append(product)
+
+    def show_inventory(self):
+        for product in self.inventory:
+            print(product)
+
+cafeteria = Store()
+cafeteria.show_inventory()
+cafeteria.add_product("Capuchino")
+cafeteria.show_inventory()
