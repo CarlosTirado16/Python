@@ -12,7 +12,7 @@ numero2 = 1
 print(numero1)
 print(numero2)
 contar_numeros = 2
-while contar_numeros < 50:
+while contar_numeros < 50: 
     recordarnum2 = numero2
     numero2 = numero1 + numero2
     print(numero2)

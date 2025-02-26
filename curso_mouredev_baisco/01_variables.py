@@ -37,7 +37,3 @@ print(type(name))
 price = 9.99
 print(int(price)) #Va a redondear hacia abajo
 
-phone: int = 123456789
-print(type(phone))
-phone = 987654321
-print(type(phone))

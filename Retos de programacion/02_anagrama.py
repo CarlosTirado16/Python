@@ -37,7 +37,7 @@ def anagrama(palabra1 , palabra2):
         return False
 
 
-esanagramas = anagrama("jAMON", "Monja") 
+esanagramas = anagrama("jAMON", "Monja") #True
 print(esanagramas)
-esanagramas = anagrama("Carlos", "Charlie")
+esanagramas = anagrama("Carlos", "Charlie") #False
 print(esanagramas)

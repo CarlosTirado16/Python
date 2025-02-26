@@ -8,7 +8,7 @@ total = 100
 
 while numero <= total:
     es_primo = True
-    for i in range(2, numero):  # Recorremos hasta la raíz cuadrada del número
+    for i in range(2, int(numero**0.5) + 1):  # Recorremos hasta la raíz cuadrada del número
         if numero % i == 0:
             es_primo = False
             break  # Si es divisible, no es primo y salimos del bucle

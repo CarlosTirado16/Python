@@ -47,7 +47,7 @@ print(my_list + my_other_list)
 my_other_list.append("B") #Pone un elemento al final
 print(my_other_list)
 
-my_other_list.insert(1, "Rojo") #Mete un valor
+my_other_list.insert(1, "Rojo") #Mete un valor y recorre los demas
 print(my_other_list)
 
 my_other_list[1] = "Azul"

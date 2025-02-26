@@ -29,4 +29,4 @@ if not my_string:
     print("Mi cadena de texto es vacía")
 
 if my_string == "Mi cadena de textoooooo":
-    print("Estas cadenas de texto coinciden")
+    print("Estas cadenas de texto coinciden") 

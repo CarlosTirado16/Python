@@ -53,17 +53,17 @@ def print_name_with_default(name, surname, alias="Sin alias"):
     print(f"{name} {surname} {alias}")
 
 
-print_name_with_default("Carlos", "Tirado")
+print_name_with_default("Carlos", "Tirado") #Le da un valor por defecto
 print_name_with_default("Carlos", "Tirado", "Chumi")
 
 # Función con parámetros de entrada/argumentos arbitrarios
 
 
-def print_upper_texts(*texts):
+def print_upper_texts(*texts): #Puede guardar infinitos valores cómo una tupla
     print(type(texts))
     for text in texts:
         print(text.upper())
 
 
-print_upper_texts("Hola", "Python", "MoureDev")
+print_upper_texts("Hola", "Python", "Carlos")
 print_upper_texts("Hola")
